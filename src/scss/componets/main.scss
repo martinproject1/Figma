@@ -1,0 +1,46 @@
+main {
+    padding: 64px;
+
+    .how__its__work__section {
+        position: relative;
+        .container {
+            max-width: $miniContiner;
+            h2 {
+                width: 100%;
+                margin: 0px 0px 24px 0px;
+            }
+
+            .how__its__work__list {
+                position: relative;
+                z-index: 5;
+                ol {
+                    padding: 0;
+                    margin-bottom: 48px;
+                    li {
+                    color: #49464F;
+                    margin-bottom: 24px;
+                    list-style-position: inside;
+                    font-size: 28px;
+                    line-height: 24px;
+
+
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                  }
+                }
+            }
+
+            .how__its__work__cover {
+                position: absolute;
+                z-index: 1;
+                top: 70px;
+                right: 0;
+                img {
+                    display: block;
+
+                }
+            }
+        }
+    }
+}
